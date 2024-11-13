@@ -1,0 +1,12 @@
+﻿{
+  "Invoice_DateTitle": "Tarih",
+  "Invoice_QuotationNumberTitle": "Teklif numarası",
+  "Invoice_DeliveryTermsTitle": "Kargo Şartları",
+  "Invoice_DeliveryTimeTitle": "Kargo Zamanı",
+  "Invoice_QuotationTitle": "Teklif",
+  "Invoice_To": "Siparişçi",
+  "InvoiceTable_ProductName": "Ürün ismi",
+  "InvoiceTable_Quantity": "Sayı",
+  "InvoiceTable_TotalAmount": "Total fiyat",
+  "InvoiceTable_UnitPrice": "Adet fiyatı\n(EUR)"
+}

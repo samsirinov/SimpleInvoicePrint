@@ -1,0 +1,12 @@
+﻿{
+  "Invoice_DateTitle": "Tarix",
+  "Invoice_QuotationNumberTitle": "Təklif Nömrəsi",
+  "Invoice_DeliveryTermsTitle": "Çatdırılma şərtləri",
+  "Invoice_DeliveryTimeTitle": "Çatdırılma tarixi",
+  "Invoice_QuotationTitle": "Təklif",
+  "Invoice_To": "Sifarişçi",
+  "InvoiceTable_ProductName": "Məhsul Adı",
+  "InvoiceTable_Quantity": "Sayı",
+  "InvoiceTable_TotalAmount": "Ümumi Dəyər",
+  "InvoiceTable_UnitPrice":  "Ədədin Qiyməti\n(EUR)"
+}

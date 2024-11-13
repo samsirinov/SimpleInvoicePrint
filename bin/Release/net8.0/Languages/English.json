@@ -1,0 +1,12 @@
+﻿{
+  "Invoice_DateTitle": "Date",
+  "Invoice_QuotationNumberTitle": "Quotation Number",
+  "Invoice_DeliveryTermsTitle": "Delivery Terms",
+  "Invoice_DeliveryTimeTitle": "Delivery Time",
+  "Invoice_QuotationTitle": "Quotation",
+  "Invoice_To": "To",
+  "InvoiceTable_ProductName": "Product Name",
+  "InvoiceTable_Quantity": "Quantity",
+  "InvoiceTable_TotalAmount": "Total Amount",
+  "InvoiceTable_UnitPrice": "Unit Price \n (EUR)"
+}
