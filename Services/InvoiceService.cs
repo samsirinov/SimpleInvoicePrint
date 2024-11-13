@@ -146,7 +146,7 @@ namespace WebApplication1.Services
             Table table = new Table(UnitValue.CreatePercentArray(new float[] { 3, 1.5f, 1.5f, 2 }));
             table.SetWidth(UnitValue.CreatePercentValue(150));
 
-            // Başlık satırı
+      
             table.AddHeaderCell(CreateHeaderCell("InvoiceTable_ProductName".GetLocalizedText(language), boldFont));
             table.AddHeaderCell(CreateHeaderCell("InvoiceTable_Quantity".GetLocalizedText(language), boldFont));
 
@@ -188,15 +188,15 @@ namespace WebApplication1.Services
 
             }
 
-            // KDV satırı
-            table.AddCell(new Cell(1, 3) // İki sütunu kapsar
+           
+            table.AddCell(new Cell(1, 3)
                 .Add(new Paragraph("VAT 20%").SetFont(boldFont).SetFontSize(10))
                 .SetTextAlignment(TextAlignment.RIGHT)
                 .SetBorder(new SolidBorder(1)));
             table.AddCell(CreateCell("0 000 000", font, TextAlignment.CENTER));
 
-            // Toplam satırı
-            table.AddCell(new Cell(1, 3) // İki sütunu kapsar
+
+            table.AddCell(new Cell(1, 3) 
                 .Add(new Paragraph("Total:").SetFont(boldFont).SetFontSize(10))
                 .SetTextAlignment(TextAlignment.RIGHT)
                 .SetBorder(new SolidBorder(1)));
@@ -207,7 +207,6 @@ namespace WebApplication1.Services
             doc.Add(table);
         }
 
-        // Helper method for header cells
         private Cell CreateHeaderCell(string content, PdfFont font)
         {
             return new Cell()
@@ -216,7 +215,6 @@ namespace WebApplication1.Services
                 .SetBorder(new SolidBorder(1));
         }
 
-        // Helper method for regular cells
         private Cell CreateCell(string content, PdfFont font, TextAlignment alignment = TextAlignment.CENTER)
         {
             return new Cell()
